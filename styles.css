@@ -1,0 +1,41 @@
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f1f1f1;
+}
+
+#container {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 50px;
+}
+
+.bar {
+  width: 20px;
+  margin: 0 2px;
+  background-color: #3498db;
+  transition: height 0.2s;
+}
+
+button {
+  background-color: #27ae60;
+  color: #fff;
+  border: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.buttons{
+  display: flex;
+  gap: 20px;
+}
+button:hover {
+  background-color: #1f8c4d;
+}
